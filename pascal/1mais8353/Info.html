@@ -1,0 +1,129 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>Pirmas praktinis darbas</TITLE>
+<META content="text/html; charset=windows-1257" http-equiv=Content-Type>
+<META name=GENERATOR content="MSHTML 8.00.6001.18904"></HEAD>
+<BODY leftMargin=30 bgColor=lightgreen marginheight="3" marginwidth="3">
+<H2 align=center><FONT color=black size=5 face=Verdana><B>Pirmas praktinis 
+darbas</B></FONT></H2>
+<P><FONT color=black size=2 face=Verdana>Kursas "Informatika" (INFO2214) 
+2009/2010 m.m. pavasario (2) sem. <BR>&nbsp;</FONT> 
+<TABLE border=2 borderColor=blue cellPadding=3 align=center>
+  <TBODY>
+  <TR>
+    <TD vAlign=center width=97 align=left><FONT color=black size=2 
+      face=Verdana><B>Užduotys:</B></FONT> </TD>
+    <TD width=222><FONT color=black size=2 face=Verdana>119</FONT></TD></TR>
+  <TR>
+    <TD vAlign=center width=97 align=left><FONT color=black size=2 
+      face=Verdana><B>Atliko:</B></FONT> </TD>
+    <TD width=222><FONT color=black size=2 face=Verdana>Maksim 
+  Isajev</FONT></TD></TR>
+  <TR>
+    <TD vAlign=center width=97 align=left><FONT color=black size=2 
+      face=Verdana><B>Pradėtas:</B></FONT> </TD>
+    <TD width=222><FONT color=black size=2 
+face=Verdana>2010-03-13</FONT></TD></TR>
+  <TR>
+    <TD vAlign=center width=97 align=left><FONT color=black size=2 
+      face=Verdana><B>Baigtas:</B></FONT> </TD>
+    <TD width=222><FONT color=black size=2 
+  face=Verdana>2010-04-28</FONT></TD></TR></TBODY></TABLE>
+<H3 align=center><FONT color=black size=3 face=Verdana><B>Uždavinio 
+formulavimas</B></FONT></H3>
+<P><FONT color=black size=2 face=Verdana>Duotos dvi simetrinės matricos eilės n. 
+Kadangi matricos simetrinės, tai atminties taupymo sumetimais laikomi tik 
+nesikartojantys matricos elementai. Abi matricos laikomos pavidalu:<BR></FONT>
+<P><FONT color=black size=2 face=Verdana>(pvz., kai n = 3)<BR></FONT><BR><IMG 
+hspace=10 align=absBottom src="http://www.mif.vu.lt/~zagunas/INFO2010/Uzduotys/Darbas1/Img31.gif" width=200 height=210><BR>
+<P><FONT color=black size=2 face=Verdana>Neišskiriant matricų į du atskirus 
+masyvus, sudaryti šių matricų dauginimo programą.<BR></FONT>
+<H3 align=center><FONT color=black size=3 face=Verdana><B>Uždavinio 
+analizė</B></FONT></H3>
+<UL>
+  <LI><FONT color=black size=2 face=Verdana>Maksimali matricos eilė = 25 </FONT>
+  <LI><FONT color=black size=2 face=Verdana>Matricos daugybai naudojama formulė: 
+  <B>c(ij) = a(i1)*b(1j) + a(i2)*b(2j) + ... + a(ik)*b(kj)</B></FONT> 
+  <LI><FONT color=black size=2 face=Verdana>Abi simetrinės matricos yra laikomos 
+  viename 2-mačiame masyve t.y. duomenų matricoje (kaip parodyta uždavinio 
+  formulavimo pavyzdyje). </FONT>
+  <LI><FONT color=black size=2 face=Verdana>Skaičiuojant sandaugos matricą iš 
+  2-jų simetrinių matricų (funkcijoje <I><B>Multiply</B></I>) imami duomenų 
+  matricos elementai atitinkantys 1-osios ir 2-osios simetrinių matricų 
+  nesikartojantiems elementams.<BR><BR>Šie elementai imami, koreguojant eilutės 
+  <I><B>i</I></B> ir stulpelio <I><B>j</I></B> indeksus, naudojant funkcijas 
+  <I><B>ia</I></B>, <I><B>ja</I></B>, <I><B>ib</I></B> ir <I><B>jb</I></B>. 
+  <BR><BR><I><B>ia</I></B> – gražina 1-ajai (<I><B>ib</I></B> – 2- ajai) 
+  matricai atitinkančio elemento eilutę, o <I><B>ja</I></B> - 1-ajai 
+  (<I><B>jb</I></B> – 2- ajai) matricai atitinkančio elemento 
+  stulpelį.<BR><BR></FONT>
+  <LI><FONT color=black size=2 face=Verdana>Programoje panaudotas duomenų 
+  įvedimas iš standartinio įvedimo srauto STDIN. Jis realizuojamas procedūroje 
+  <I>DataReading</I> atliekant <I>Read/Readln</I>. 
+  <LI><FONT color=black size=2 face=Verdana>Programoje panaudotas duomenų 
+  išvedimas į standartinį išvedimo srautą STDOUT. Jis realizuojamas procedūroje 
+  <I>ResultPrinting</I> atliekant <I>Write/Writeln</I>. </FONT></LI></UL>
+<H4 align=center><FONT color=black size=3 face=Verdana><B>Atlikto darbo 
+palyginimas su ankstesniu šio darbo atlikimu</B></FONT></H4>
+<P><FONT color=black size=2 face=Verdana><U>Ankstesnio darbo pranašumai palygint 
+su mano atliktu:</U><BR><BR></FONT>
+<UL>
+  <LI><FONT color=black size=2 face=Verdana>Yra <I>make failai </I>programos 
+  paruošimui MS-DOS ir UNIX sistemų aplinkoje. </FONT>
+  <LI><FONT color=black size=2 face=Verdana>1-osios ir 2-osios matricos elementų 
+  reikšmių gavimas yra trumpesnis, realizuojamas 2 funkcijomis (mano programoje 
+  - 4 funkcijomis, kurios naudojamos elementų indeksuose). </LI>
+</UL><BR><BR>
+<P><FONT color=black size=2 face=Verdana><U>Ankstesnio darbo 
+trukumai:</U><BR><BR></FONT>
+<UL>
+  <LI><FONT color=black size=2 face=Verdana>Komandinio failo UNIX sistemai kodas 
+  parašytas neatitinkančia (t.y. komandinio failo MS-DOS sistemai) kalba. 
+</FONT>
+  <LI><FONT color=black size=2 face=Verdana>Programoje nepanaudoti STDIN, 
+  STDOUT. </LI>
+  <LI><FONT color=black size=2 face=Verdana>Nėra pradinių duomenų failo ir failo, į kurį išvedamas rezultatas </LI>	
+</UL><BR>
+
+<H4 align=center><FONT color=black size=3 face=Verdana><B>Nuorodos į archyve 
+esančius failus. </B></FONT></H4>
+<DIV align=justify><FONT color=black size=2 face=Verdana><A 
+href="Makefile">Makefile</A> 
+- make failas programos sutransliavimui. </FONT></DIV>
+<HR align=justify>
+ 
+<DIV align=justify><FONT color=black size=2 face=Verdana><A 
+href="mais8353.pas">mais8353.pas</A> 
+- Parašytos programos programavimo kalba <I>Pascal</I> išeities tekstai. 
+</FONT></DIV>
+<HR align=justify>
+ 
+<DIV align=justify><FONT color=black size=2 face=Verdana><BR><A 
+href="runWin.bat">runWin.bat</A> 
+- Komandinis failas programos vykdymui sistemos MS-DOS (Microsoft Windows) 
+aplinkoje.</FONT></DIV>
+<HR align=justify>
+ 
+<DIV align=justify><FONT color=black size=2 face=Verdana><BR><A 
+href="runUnix.sh">runUnix.sh</A> 
+- Komandinis failas programos vykdymui sistemos UNIX aplinkoje.</FONT></DIV>
+<HR align=justify>
+
+
+<DIV align=justify><FONT color=black size=2 face=Verdana><BR><A 
+href="elements.txt">elements.txt</A> 
+-  Duomenų įvesties tekstinis failas.</FONT></DIV>
+<HR align=justify>
+
+<DIV align=justify><FONT color=black size=2 face=Verdana><BR><A 
+href="ResultFile.txt">ResultFile.txt</A> 
+-  Rezultato išvesties tekstinis failas.</FONT></DIV>
+<HR align=justify>
+
+<DIV align=justify><FONT color=black size=2 face=Verdana><BR><A 
+href="Sample46.zip">Sample46.zip</A> 
+-  Ankstesnis 1 darbo tos pačios užduoties atlikimas.</FONT></DIV>
+<HR>
+
+</FONT></FONT></FONT>
+</BODY>
+</HTML>

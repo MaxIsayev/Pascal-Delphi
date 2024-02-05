@@ -1,0 +1,129 @@
+count||16
+ID_0||2095051270016149455
+POSITION_0||1
+TITLE_0||Marvel of Nature
+CAPTION_0||A true wonder of nature, this migratory butterfly makes its way from one end of the continent to the other but can be found in South America as well as North America - Known by its Scientific Family name: Nymphalidae and its Genus and Species: Danaus plexippus
+CREDIT_0||bcw1_
+URL_PHOTO_0||ph2095051270016149455.jpg
+URL_THUMB_0||th2095051270016149455.wb1
+SOURCE_0||c
+ID_1||2353590440016149455
+POSITION_1||2
+TITLE_1||"Doris"
+CAPTION_1||This irridescent colored butterfly is known by its family name: Nymphalidae and its Genus and Species: Heliconius eleuchia
+CREDIT_1||bcw1_
+URL_PHOTO_1||ph2353590440016149455.jpg
+URL_THUMB_1||th2353590440016149455.wb1
+SOURCE_1||c
+ID_2||2966523940016149455
+POSITION_2||3
+TITLE_2||"Long-tailed Skipper"
+CAPTION_2||The Scientific Family name: Hesperiidae and the Genus and Species name: Urbanus proteus (Urbanus p. proteus)
+CREDIT_2||bcw1_
+URL_PHOTO_2||ph2966523940016149455.jpg
+URL_THUMB_2||th2966523940016149455.wb1
+SOURCE_2||c
+ID_3||2429180890016149455
+POSITION_3||4
+TITLE_3||Blended Earthtones
+CAPTION_3||
+CREDIT_3||bcw1_
+URL_PHOTO_3||ph2429180890016149455.jpg
+URL_THUMB_3||th2429180890016149455.wb1
+SOURCE_3||c
+ID_4||2942503140016149455
+POSITION_4||5
+TITLE_4||07
+CAPTION_4||
+CREDIT_4||bcw1_
+URL_PHOTO_4||ph2942503140016149455.jpg
+URL_THUMB_4||th2942503140016149455.wb1
+SOURCE_4||c
+ID_5||2695676260016149455
+POSITION_5||6
+TITLE_5||Double Take
+CAPTION_5||Common name "Doris" also known by its scientific family name "Nymphalidae" and genus and species "Heliconius eleuchia"
+CREDIT_5||bcw1_
+URL_PHOTO_5||ph2695676260016149455.jpg
+URL_THUMB_5||th2695676260016149455.wb1
+SOURCE_5||c
+ID_6||2961507860016149455
+POSITION_6||7
+TITLE_6||Monarch Butterfly
+CAPTION_6||Scientific Family name: Nymphalidae and its Genus and Species name: Danaus plexippus
+CREDIT_6||bcw1_
+URL_PHOTO_6||ph2961507860016149455.jpg
+URL_THUMB_6||th2961507860016149455.wb1
+SOURCE_6||c
+ID_7||2839482340016149455
+POSITION_7||8
+TITLE_7||Blue Eyes
+CAPTION_7||
+CREDIT_7||bcw1_
+URL_PHOTO_7||ph2839482340016149455.jpg
+URL_THUMB_7||th2839482340016149455.wb1
+SOURCE_7||c
+ID_8||2155356590016149455
+POSITION_8||9
+TITLE_8||Transluscense
+CAPTION_8||"Blue Transparent" is the common name of this colorful butterfly. The Family name:"Nymphalidae" and The Genus and Species: "Ithomia pellucida"
+CREDIT_8||bcw1_
+URL_PHOTO_8||ph2155356590016149455.jpg
+URL_THUMB_8||th2155356590016149455.wb1
+SOURCE_8||c
+ID_9||2657831160016149455
+POSITION_9||10
+TITLE_9||Great Spangled Fritillary
+CAPTION_9||I believe this is a subspecies of the Great Spangled Fritillary (Subspecies pseudocarpenteri) as it is more locally found across southern prairies where this one was captured. Speyeria cybele
+CREDIT_9||bcw1_
+URL_PHOTO_9||ph2657831160016149455.jpg
+URL_THUMB_9||th2657831160016149455.wb1
+SOURCE_9||c
+ID_10||2662006430016149455
+POSITION_10||11
+TITLE_10||"Serpia Crescent"
+CAPTION_10||(Tegosa serpia) Family:Nymphalidae, Subfamily:Nymphalinae, Tribe:Melitaeini
+CREDIT_10||bcw1_
+URL_PHOTO_10||ph2662006430016149455.jpg
+URL_THUMB_10||th2662006430016149455.wb1
+SOURCE_10||c
+ID_11||2475105180016149455
+POSITION_11||12
+TITLE_11||Contrasting Contours
+CAPTION_11||"Scarlet Peacock" butterfly. Family name is: Nymphalidae and the Genus and Species name is Anartia amathea
+CREDIT_11||bcw1_
+URL_PHOTO_11||ph2475105180016149455.jpg
+URL_THUMB_11||th2475105180016149455.wb1
+SOURCE_11||c
+ID_12||2583099080016149455
+POSITION_12||13
+TITLE_12||Colorful Coat tails - "Long-tailed Skipper"
+CAPTION_12||Scientific Family name: Hesperiidae, Genus and Species: Urbanus proteus
+CREDIT_12||bcw1_
+URL_PHOTO_12||ph2583099080016149455.jpg
+URL_THUMB_12||th2583099080016149455.wb1
+SOURCE_12||c
+ID_13||2774658950016149455
+POSITION_13||14
+TITLE_13||Aug01 012
+CAPTION_13||
+CREDIT_13||bcw1_
+URL_PHOTO_13||ph2774658950016149455.jpg
+URL_THUMB_13||th2774658950016149455.wb1
+SOURCE_13||c
+ID_14||2776264730016149455
+POSITION_14||15
+TITLE_14||"Giant Swallowtail"
+CAPTION_14||This commonly known Swallowtail is known by its Scientific name:Papilonidae and by its Genus and Species name:Heraclides cresphontes
+CREDIT_14||bcw1_
+URL_PHOTO_14||ph2776264730016149455.jpg
+URL_THUMB_14||th2776264730016149455.wb1
+SOURCE_14||c
+ID_15||2343774430016149455
+POSITION_15||16
+TITLE_15||Elegant Repose
+CAPTION_15||"Doris" also known by its Scientific family name :Nymphalidae and its Genus and Species name: Heliconius eleuchia
+CREDIT_15||bcw1_
+URL_PHOTO_15||ph2343774430016149455.jpg
+URL_THUMB_15||th2343774430016149455.wb1
+SOURCE_15||c

@@ -1,0 +1,132 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>INFO2214 antras praktinis darbas</TITLE>
+<META content="text/html; charset=windows-1257" http-equiv=Content-Type>
+<META name=GENERATOR content="MSHTML 8.00.6001.18904"></HEAD>
+<BODY leftMargin=30 bgColor=lightgreen marginwidth="3" marginheight="3">
+<H2 align=center><FONT color=black size=5 face=Verdana><B>INFO2214 antras
+praktinis darbas</B></FONT></H2>
+<P><FONT color=black size=2 face=Verdana>Kursas "Informatika" (INFO2214)
+2009/2010 m.m. pavasario (2) sem. <BR>&nbsp;</FONT>
+<TABLE border=2 color=black cellPadding=3 align=center>
+  <TBODY>
+  <TR>
+    <TD vAlign=center width=97 align=left><FONT color=black size=2
+      face=Verdana><B>Užduotys:</B></FONT> </TD>
+    <TD width=222><FONT color=black size=2 face=Verdana>319</FONT></TD></TR>
+  <TR>
+    <TD vAlign=center width=97 align=left><FONT color=black size=2
+      face=Verdana><B>Atliko:</B></FONT> </TD>
+    <TD width=222><FONT color=black size=2 face=Verdana>Maksim
+  Isajev</FONT></TD></TR>
+  <TR>
+    <TD vAlign=center width=97 align=left><FONT color=black size=2
+      face=Verdana><B>Pradėtas:</B></FONT> </TD>
+    <TD width=222><FONT color=black size=2
+face=Verdana>2010-05-26</FONT></TD></TR>
+  <TR>
+    <TD vAlign=center width=97 align=left><FONT color=black size=2
+      face=Verdana><B>Baigtas:</B></FONT> </TD>
+    <TD width=222><FONT color=black size=2
+  face=Verdana>2010-05-27</FONT></TD></TR></TBODY></TABLE>
+<H3 align=center><FONT color=black size=3 face=Verdana><B>Sukurtų metodų aprašymas</B></FONT></H3>
+<BR>
+<H3 align=center><FONT color=black size=2 face=Verdana><B>txt privatūs metodai</B></FONT></H3>
+
+<dl>
+</dl>
+<dt><code><u>MyReadLine: string;</u></code></dt>
+<dd><code>Funkcija iš simbolinio failo nuskaito simbolinę eilutę</code></dd>
+<dd><code>Funkcija gražina: nuskaitytą eilutę</code></dd>
+
+<H3 align=center><FONT color=black size=2 face=Verdana><B>txt vieši  metodai</B></FONT></H3>
+<dl>
+
+<dt><code><u>fConstructor;</u></code></dt>
+<dd><code>Pasiruošia darbo pradžiai</code></dd>
+
+<dt><code><u>fConstructor(strFilename : string);</u></code></dt>
+<dd><code>Pasiruošia darbo pradžiai</code></dd>
+<dd><code>Parametrai: strFailas -  failo pavadinimas</code></dd>
+
+<dt><code><u>fDestructor;</u></code></dt>
+<dd><code>Grąžina į pradinę būsena bei uždaro failą, jei jis buvo atidarytas</code></dd>
+
+<dt><code><u>OpenFile(strFilename : string) : boolean;</u><code></dt>
+<dd>Perduodami parametrai: strFilename - nuskaitomo failo pavadinimas</dd>
+<dd>Funkcija gražina:</dd>
+<dd>True - jei failas atidarytas</dd>
+<dd>False - jei failo nėra arba jis yra sąraše, bet ne archyve</dd>
+
+<dt><code><u>getTitle: string;</u></code></dt>
+<dd>Funkcija gražina paveikslo pavadinimą</dd>
+
+<dt><code><u>getCaption: string;</u></code></dt>
+<dd>Funkcija gražina paveikslo aprašymą</dd>
+
+<dt><code><u>getURL_PHOTO: string;</u></code></dt>
+<dd>Funkcija gražina paveikslo kaip didžiojo paveikslo (URL_PHOTO) pavadinimą</dd>
+
+<dt><code><u>nextPhoto: boolean;</u></code></dt>
+<dd>Funkcija gražina:</dd>
+<dd>True - jei sekantis paveikslas(įrašas) yra</dd>
+<dd>False - jei sekančio paveikslo nera </dd>
+
+<dt><code><u>CloseFile: boolean;</u></code></dt>
+<dd>Funkcija Uždaro prieš tai atidarytą failą </dd>
+</dl>
+
+<H5 align=center><FONT color=black size=3 face=Verdana><B>Pastabos</B></FONT></H5>
+<dl>
+
+<dt><code>1) Pavyzdinėje programoje klaidos išvedamos pasinaudojus specialiu failo tipu "stderr",
+todel šią programą galima kompiliuoti tik su tais, kompiliatoriais, kurie palaiko "stderr".</code></dt>
+
+<dt><code>2) Failo pavadinimas "photos.txt" yra perduodamas funkcijai OpenFile kaip parametras.</code></dt>
+
+</dl>
+
+<H5 align=center><FONT color=black size=3 face=Verdana><B>Nuorodos į archyve
+esančius failus. </B></FONT></H5>
+<dl>
+
+<dt><code><A
+href="txtUnit.pas">txtUnit.pas</A></code></dt>
+<dd>
+- Unit failas, atitinkantis uždavinio salygą.
+</dd>
+
+<dt><code><A
+href="program.pas">program.pas</A></code></dt>
+<dd>
+- Pagalbinė programa Unit failo veikimo demonstravimui.
+</dd>
+
+<dt><code><A
+href="Makefile">Makefile</A></code></dt>
+<dd>
+- make failas programos sutransliavimui.
+</dd>
+
+<dt><code><A
+href="runWin.bat">runWin.bat</A></code></dt>
+<dd>
+- Komandinis failas programos vykdymui sistemos MS-DOS (Microsoft Windows)
+aplinkoje.</dd>
+
+<dt><code><A
+href="runUnix.sh">runUnix.sh</A></code></dt>
+<dd>
+- Komandinis failas programos vykdymui sistemos UNIX aplinkoje.</dd>
+
+<dt><code><A
+href="photos.txt">photos.txt</A></code></dt>
+<dd>
+- Duomenų įvesties tekstinis failas.</dd>
+
+<dt><code><A
+href="SearchResult.txt">SearchResult.txt</A></code></dt>
+<dd>
+- Duomenų išvesties tekstinis failas.</dd>
+</dl>
+<HR align=justify>
+</FONT></FONT></FONT></BODY></HTML>
